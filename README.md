@@ -30,7 +30,7 @@ or my portfolio **[click here](https://gianmarcocavallo.com)**
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Ladvace/astro-bento-portfolio
+$ git clone https://github.com/lehao2306/astro-bento-portfolio
 ```
 
 ```bash
@@ -68,8 +68,8 @@ You just need to fork this repo and linking it to your Netlify account.
 
 or
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Ladvace/astro-bento-portfolio)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lehao2306/astro-bento-portfolio)
 
 ## Authors ❤️
 
-- Gianmarco - https://github.com/Ladvace
+- Gianmarco - https://github.com/lehao2306
