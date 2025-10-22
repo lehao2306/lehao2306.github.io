@@ -30,7 +30,7 @@ or my portfolio **[click here](https://gianmarcocavallo.com)**
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lehao2306/astro-bento-portfolio
+$ git clone https://github.com/lehao2306/lehao2306.github.io
 ```
 
 ```bash
@@ -52,24 +52,3 @@ or
 $ npm run dev
 ```
 
-# Be sure to replace the momoji and all the relative information, such as email, website and other info, if you don't your website is gonna point to my domain and to my info
-
-## REMOVE THE umami analytics script tag (or replace it with your id) in `src/layouts/Layout.astro`
-
-# Configuration
-
-remember to replace the `site` and other properties with your data in `astro.config.mjs`
-
-# Deploy on Netlify 🚀
-
-Deploying your website on Netlify it's optional but I reccomand it in order to deploy it faster and easly.
-
-You just need to fork this repo and linking it to your Netlify account.
-
-or
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lehao2306/astro-bento-portfolio)
-
-## Authors ❤️
-
-- Gianmarco - https://github.com/lehao2306
