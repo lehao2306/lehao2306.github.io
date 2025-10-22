@@ -1,0 +1,38 @@
+---
+import { getCurrentTimeInVietnam, formatTimeForVietnam } from "../lib/helpers";
+import Card from "./Card/index.astro";
+---
+
+<script>
+  import { onCleanup, onMount } from "solid-js";
+  import { formatTimeForVietnam } from "../lib/helpers";
+
+  let interval: ReturnType<typeof setInterval>;
+
+  function updateClock() {
+    const timeDisplay = document.getElementById("timeDisplay");
+    const now = new Date();
+
+    if (timeDisplay) {
+      timeDisplay.textContent = formatTimeForVietnam(now);
+      timeDisplay.setAttribute("datetime", now.toISOString());
+    }
+  }
+
+  onMount(() => {
+    interval = setInterval(updateClock, 1000);
+  });
+
+  onCleanup(() => {
+    clearInterval(interval);
+  });
+</script>
+
+<Card colSpan="lg:col-span-2" rowSpan="md:row-span-2" title="Quote">
+  <div
+    class="text-xl xl:text-3xl font-serif text-center text-gray-300 flex justify-center items-center h-[calc(100%-28px)] px-6 leading-snug"
+  >
+    “Tôi không chỉ viết code, tôi xây dựng giải pháp.”
+  </div>
+</Card>
+

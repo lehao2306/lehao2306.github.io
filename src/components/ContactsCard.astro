@@ -1,0 +1,41 @@
+---
+import Card from './Card/index.astro'
+import { LINKS } from '../lib/constants'
+---
+
+<Card colSpan='md:col-span-1' rowSpan='md:row-span-4'>
+	<div class='scrollbar-hide h-full overflow-y-auto pr-2'>
+		<header class='flex items-center'>
+			<h1 class='text-xl font-bold text-white'>Hãy cùng hợp tác và xây dựng điều tuyệt vời!</h1>
+		</header>
+
+		<address class='mt-4 flex flex-col not-italic'>
+			<h2 class='text-gray-500'>Thông tin liên hệ</h2>
+			<p>leehaodev@gmail.com</p>
+			<p>Việt Nam</p>
+		</address>
+
+		<!-- <div class='mt-4 flex w-fit flex-col'>
+			<h2 class='text-gray-500'>Mạng xã hội</h2>
+			<ul>
+				<li>
+					<a href={LINKS.linkedin} target='_blank' class='hover:underline'>LinkedIn</a>
+				</li>
+				<li>
+					<a href={LINKS.github} target='_blank' class='hover:underline'>GitHub</a>
+				</li>
+				<li>
+					<a href={LINKS.medium} target='_blank' class='hover:underline'>Blog</a>
+				</li>
+				<li>
+					<a href={LINKS.discord} target='_blank' class='hover:underline'>Discord</a>
+				</li>
+			</ul>
+		</div> -->
+
+		<p class='mt-6 text-sm text-gray-400'>
+			Tôi luôn sẵn sàng hợp tác trong các dự án web, thiết kế giao diện hoặc ý tưởng sáng tạo mới.
+			Hãy kết nối cùng nhau để biến ý tưởng thành sản phẩm thực tế. 🚀
+		</p>
+	</div>
+</Card>
